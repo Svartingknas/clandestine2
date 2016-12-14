@@ -10,7 +10,7 @@ export default class Footer extends React.Component {
 
         <footer>
           <Link className="glyphicon glyphicon-home" to="/"></Link>
-          <Link className= "glyphicon glyphicon-envelope" to="/about/band/Contact"></Link>
+          <Link className="glyphicon glyphicon-envelope" to="/about/band/Contact"></Link>
 
           <div><div className="fb-like" data-href="https://clandestineslc.com/" data-layout="button" data-action="recommend" data-size="small" data-show-faces="false" data-share="true"></div></div>
         </footer>
