@@ -7,7 +7,7 @@ import Home from './Home'
 import About from './About'
 import Contact from './Contact'
 import Events from './Events'
-// import Past from './Past'
+import Past from './Past'
 import Repo from './Repo'
 
 ReactDOM.render(
@@ -18,7 +18,7 @@ ReactDOM.render(
         <Route path="/about/:userName/:repoName" component={Contact}/>
       </Route>
       <Route path="/events" component={Events} >
-        {/*<Route path="/events/:userName/:repoName" component={Past} />*/}
+        <Route path="/events/:userName/:repoName" component={Past} />
       </Route>
     </Route>
 </Router>,
