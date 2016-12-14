@@ -11,7 +11,7 @@ export default class App extends React.Component {
   render () {
     return (
       <div>
-        /*<Header />
+        <Header />
           <hr />
           <div>
             <div className='col-sm-9'>

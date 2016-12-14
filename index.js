@@ -1,6 +1,6 @@
-import React from 'react'
-import { render } from 'react-dom'
-import { Router, Route, browserHistory, IndexRoute } from 'react-router'
+// import React from 'react'
+// import { render } from 'react-dom'
+// import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 // import App from './src/App'
 // import Events from './src/Events'
 // import About from './src/About'
@@ -9,8 +9,8 @@ import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 // import Past from './src/Past'
 // import Contact from './src/Contact'
 
-render ((
-{/*<Router history={browserHistory}>
+{/*render ((
+<Router history={browserHistory}>
     <Route path="/" component={App} >
       <IndexRoute component={Home} />
       <Route path="/about" component={About} >
@@ -20,7 +20,7 @@ render ((
         <Route path="/events/:userName/:repoName" component={Past} />
       </Route>
     </Route>
-</Router> */}
+</Router>
 
 
-), document.getElementById('root'));
+), document.getElementById('root'));*/}
