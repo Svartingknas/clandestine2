@@ -12,7 +12,7 @@ export default class Contact extends React.Component{
         <div className="modal fade" id="myModal" role="dialog">
           <div className="modal-dialog">
 
-        {/*Modal content*/}
+          {/*Modal content*/}
       <div className="modal-content">
         <div className="modal-header">
           <button type="button" className="close" data-dismiss="modal">&times;</button>

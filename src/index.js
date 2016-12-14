@@ -6,7 +6,7 @@ import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 import Home from './Home'
 import About from './About'
 import Contact from './Contact'
-// import Events from './Events'
+import Events from './Events'
 // import Past from './Past'
 import Repo from './Repo'
 
@@ -17,9 +17,9 @@ ReactDOM.render(
       <Route path="/about" component={About} >
         <Route path="/about/:userName/:repoName" component={Contact}/>
       </Route>
-      {/*<Route path="/events" component={Events} >
-        <Route path="/events/:userName/:repoName" component={Past} />
-      </Route>*/}
+      <Route path="/events" component={Events} >
+        {/*<Route path="/events/:userName/:repoName" component={Past} />*/}
+      </Route>
     </Route>
 </Router>,
   document.getElementById('root')
