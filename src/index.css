@@ -4,7 +4,7 @@
 }
 
 body {
-  height: 110%;
+  height: 100%;
   padding: 1%;
   background-image: url('./images/website.jpg');
   background-size: 80vw;
@@ -19,7 +19,7 @@ body {
 
 .sidenav {
   background-color: black;
-  height: 85%;
+  height: 88%;
   margin: 40px;
   float: right;
 
@@ -48,7 +48,6 @@ footer {
 }
 
 li{
-
   font-size: 20px;
 }
 
@@ -59,11 +58,10 @@ li{
   background-repeat: no-repeat;
   padding-top: 200px;
   padding-bottom: 175px;
-  height: 31em;
+  height: 34em;
   width: 100%;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
-
 
 @media screen and (min-width: 768px) {
   .jumbotron {
@@ -71,6 +69,7 @@ li{
     padding-bottom: 175px;
   }
 }
+
  h1 {
    font-size: 42px;
    color: black;
@@ -79,14 +78,17 @@ li{
  .homeText{
    color: white;
  }
+
  .carousel-inner > .item > img,
  .carousel-inner > .item > a > img {
      width: 70%;
      margin: auto;
  }
+
 h4 {
   color: black;
 }
+
 .text {
   color: white;
   text-shadow: black 2px;
