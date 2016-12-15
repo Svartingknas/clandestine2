@@ -5,7 +5,7 @@
 
 body {
   height: 100%;
-  padding: 2%;
+  padding: 1%;
   background-image: url('./images/website.jpg');
   background-size: 90vw;
   background-position: center;
@@ -43,8 +43,7 @@ footer {
   color: black;
   text-align: right;
   font-size: 24px;
-  padding: 20px;
-
+  padding: 18px;
 }
 
 li{
@@ -56,9 +55,9 @@ li{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 200px;
+  padding-top: 50px;
   padding-bottom: 175px;
-  height: 34em;
+  height: 38vw;
   width: 100%;
   padding-bottom: 50px;
 }
@@ -70,26 +69,27 @@ li{
   }
 }
 
- h1 {
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+     width: 70%;
+     margin: 1em;
+ }
+
+h1 {
    font-size: 42px;
    color: black;
  }
 
- .homeText{
-   color: white;
- }
-
- .carousel-inner > .item > img,
- .carousel-inner > .item > a > img {
-     width: 70%;
-     margin: auto;
- }
-
-h4 {
+h4, h3, h2 {
   color: black;
+  background-color: grey;
 }
 
 .text {
   color: white;
   text-shadow: black 2px;
+}
+
+.col-sm-8 {
+
 }

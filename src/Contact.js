@@ -1,12 +1,14 @@
 import React from 'react'
+import NavLink from './NavLink'
 
 export default class Contact extends React.Component{
   render(){
     return(
-      <div className="container">
-        <h2>Basic Modal Example</h2>
+      <div className="container-fluid">
         {/*Trigger the modal with a button*/}
         <button type="button" className="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+      NavLink to="/events/band/Past"
 
         {/*Modal*/}
         <div className="modal fade" id="myModal" role="dialog">

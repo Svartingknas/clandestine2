@@ -18,6 +18,9 @@ export default class App extends React.Component {
                 {this.props.children || <Home/>}
             </div>
               <Sidebar />
+              <div>
+                <br />
+              </div>
               <Footer />
             </div>
       </div>
