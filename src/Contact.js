@@ -5,10 +5,9 @@ export default class Contact extends React.Component{
   render(){
     return(
       <div className="container-fluid">
+        <h3>We can be reached via phone at 385-267-7072 or via email by clicking</h3>
         {/*Trigger the modal with a button*/}
-        <button type="button" className="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
-
-      NavLink to="/events/band/Past"
+        <button type="button" className="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Here</button>
 
         {/*Modal*/}
         <div className="modal fade" id="myModal" role="dialog">
@@ -18,7 +17,7 @@ export default class Contact extends React.Component{
       <div className="modal-content">
         <div className="modal-header">
           <button type="button" className="close" data-dismiss="modal">&times;</button>
-          <h4 className="modal-title">Modal Header</h4>
+          <h4 className="modal-title">E-mail us here</h4>
         </div>
         <div className="modal-body">
           <form className="form-horizontal" method="post" role="form">
