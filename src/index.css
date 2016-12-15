@@ -90,6 +90,7 @@ h4, h3, h2 {
   text-shadow: black 2px;
 }
 
-.col-sm-8 {
+.control-label {
+  width: 6em;
 
 }
