@@ -14,11 +14,10 @@ export default class App extends React.Component {
         <Header />
           <hr />
           <div>
-            <div className='col-sm-9'>
+            <div className='col-sm-8'>
                 {this.props.children || <Home/>}
             </div>
               <Sidebar />
-              <hr />
               <Footer />
             </div>
       </div>
