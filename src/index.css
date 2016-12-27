@@ -21,7 +21,7 @@ body {
   background-color: black;
   height: 85%;
   margin: 40px;
-  float: none;
+  float: right;
 
 }
 
@@ -29,6 +29,7 @@ body {
   .sidenav {
     height: auto;
     padding: 15px;
+    float: none;
   }
   .row.content {height: auto;}
 }
