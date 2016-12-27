@@ -1,5 +1,4 @@
 import React from 'react'
-import NavLink from './NavLink'
 
 export default class Contact extends React.Component{
   render(){
